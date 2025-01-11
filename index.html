@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Project</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <!-- header  -->
+    <div class="header">
+        <div class="left-section">
+            <img class="amazon-logo" src="header images/amazon-logo-white.png" alt="amazon logo">
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="header images/search-icon.png" alt="search icon">
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class="return-order-container">
+                <div class="returns">Returns</div>
+                <div class="orders">& Orders</div>
+            </div>
+            <div class="cart-container">
+                <button class="cart-button">
+                    <p class="cart-count">4</p>
+                    <img class="cart-icon" src="header images/cart-icon.png" alt="cart icon">
+                </button>
+                <div>Cart</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="grid-container">
+        <!-- socks -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/athletic-cotton-socks-6-pairs.jpg" alt="socks">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Black and Gray Atheletic Cotton Socks - 6 Pairs</div>
+                <div class="product-stats">
+                    <div class="product-rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">87</div>
+                </div>
+                <div class="product-price">$10.90</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- basketball -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/intermediate-composite-basketball.jpg" alt="basketball">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Intermediate Size Basketball</div>
+                <div class="product-stats">
+                    <div class="product-rating">
+                        <img class="rating-image" src="rating/rating-4.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">127</div>
+                </div>
+                <div class="product-price">$20.95</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- tshirt -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/adults-plain-cotton-tshirt-2-pack-teal.jpg" alt="tshirt">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Adults Plain Cotton T-Shirt - 2 Pack</div>
+                <div class="product-stats">
+                    <div class="product-rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">56</div>
+                </div>
+                <div class="product-price">$7.99</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- toaster -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" id="toaster" src="product-images/black-2-slot-toaster.jpg" alt="toaster">
+            </div>
+            <div class="product-description">
+                <div class="product-name">2 Slot Toaster - Black</div>
+                <div class="product-stats">
+                    <div class="product-rating">
+                        <img class="rating-image" src="rating/rating-5.png" alt="5 rating">
+                    </div>
+                    <div class="product-sale-count">2197</div>
+                </div>
+                <div class="product-price">$18.99</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- plate -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/6-piece-white-dinner-plate-set.jpg" alt="plate">
+            </div>
+            <div class="product-description">
+                <div class="product-name">6 Piece White Dinner Plate Set</div>
+                <div class="product-stats">
+                    <div class="product-rating">
+                        <img class="rating-image" src="rating/rating-4.png" alt="4 rating">
+                    </div>
+                    <div class="product-sale-count">37</div>
+                </div>
+                <div class="product-price">$20.67</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- baking set -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/6-piece-non-stick-baking-set.webp" alt=" baking set">
+            </div>
+            <div class="product-description">
+                <div class="product-name">6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set</div>
+                <div class="product-stats"> 
+                    <div class="product-rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">175</div>
+                </div>
+                <div class="product-price">$34.99</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- sweatshirt -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/plain-hooded-fleece-sweatshirt-yellow.jpg" alt="sweatshirt">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Plain Hooded Fleece Sweatshirt</div>
+                <div class="product-stats">
+                    <div class="product-rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">317</div>
+                </div>
+                <div class="product-price">$24.00</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container"> 
+                    Color
+                    <div class="items">
+                        <button>Yellow</button>
+                        <button>Teal</button>
+                    </div>
+                </div>
+                <div class="color-container"> 
+                    <div>Size</div>
+                    <div class="items">
+                        <button>S</button>
+                        <button>M</button>
+                        <button>L</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- towel -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/luxury-tower-set-6-piece.jpg" alt="towel">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Luxury Towel Set - Graphite Gray</div>
+                <div class="product-stats">
+                    <div class="product-rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">144</div>
+                </div>
+                <div class="product-price">$35.99</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container">
+                    Set
+                    <div class="items">
+                        <button>6-Piece</button>
+                        <button>4-Piece</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- detergent -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" id="detergent" src="product-images/liquid-laundry-detergent-plain.jpg" alt="detergent">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Liquid Laundry Detergent, 110 Loads, 82.5 Fl Oz</div>
+                <div class="product-stats">
+                    <div class="product-rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">305</div>
+                </div>
+                <div class="product-price">$28.99</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container">
+                    Style
+                    <div class="items">
+                        <button>Plain</button>
+                        <button>Lavender</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- sneakers -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/knit-athletic-sneakers-gray.jpg" alt="sneaker">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Waterproof Knit Athletic Sneakers - Gray</div>
+                <div class="product-stats">
+                    <div class="product-rating">
+                        <img class="rating-image" src="rating/rating-4.png" alt="4 rating">
+                    </div>
+                    <div class="product-sale-count">89</div>
+                </div>
+                <div class="product-price">$33.90</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container">
+                    Shoe size (US)
+                    <div class="items">
+                        <button>5</button>
+                        <button>6</button>
+                        <button>7</button>
+                        <button>8</button>
+                        <button>9</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- chiffon beachwear -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" id="chiffon" src="product-images/women-chiffon-beachwear-coverup-black.jpg" alt="chiffon beachwear">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Women's Chiffon Beachwear Cover Up - Black</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">235</div>
+                </div>
+                <div class="product-price">$20.70</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- sunglasses -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/round-sunglasses-black.jpg">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Round Sunglasses</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">30</div>
+                </div>
+                <div class="product-price">$15.60</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container">
+                    Style
+                    <div class="items">
+                        <button>Black</button>
+                        <button>Gold</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- sandals -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/women-beach-sandals.jpg" alt="sandals">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Women's Ttwo Strap Buckle Sandals - Tan</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">562</div>
+                </div>
+                <div class="product-price">$24.99</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container">
+                    Shoe size (US)
+                    <div class="items">
+                        <button>7</button>
+                        <button>8</button>
+                        <button>9</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- curtains -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/blackout-curtain-set-beige.webp" alt="curtains">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Blackout Curtains Set 4-Pack - Beige</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">232</div>
+                </div>
+                <div class="product-price">$45.99</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- shorts -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" id="shorts" src="product-images/men-slim-fit-summer-shorts-gray.jpg" alt="shorts">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Men's Slim-Fit Summer Shorts</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-4.png" alt="4 rating">
+                    </div>
+                    <div class="product-sale-count">160</div>
+                </div>
+                <div class="product-price">$16.99</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container">
+                    Color
+                    <div class="items">
+                        <button>Gray</button>
+                        <button>Black</button>
+                        <button>Beige</button>
+                    </div>
+                </div>
+                <div class="color-container">
+                    Waist size (inches)
+                    <div class="items">
+                        <button>30</button>
+                        <button>31</button>
+                        <button>32</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- water kettle -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" id="kettle" src="product-images/electric-glass-and-steel-hot-water-kettle.webp" alt="kettle">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Electric Glass and Steel Hot Tea Water Kettle - 1.7-Liter</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-5.png" alt="5 rating">
+                    </div>
+                    <div class="product-sale-count">846</div>
+                </div>
+                <div class="product-price">$30.74</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- tissue -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" id="tissue" src="product-images/facial-tissue-2-ply-18-boxes.jpg" alt="tissue">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Ultra Soft Tissue 2-Ply - 18 Box</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-4.png" alt="4 rating">
+                    </div>
+                    <div class="product-sale-count">99</div>
+                </div>
+                <div class="product-price">$23.74</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- sun hat -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" id="hat" src="product-images/straw-sunhat.webp" alt="hat">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Straw Lifeguard Sun Hat</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-4.png" alt="4 rating">
+                    </div>
+                    <div class="product-sale-count">215</div>
+                </div>
+                <div class="product-price">$22.00</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- earrings -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" id="earrings" src="product-images/sky-flower-stud-earrings.webp" alt="earrings">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Sterling Silver Sky Flower Stud Earrings</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">52</div>
+                </div>
+                <div class="product-price">$17.99</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- hoddie -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" id="hoodie" src="product-images/women-stretch-popover-hoodie-black.jpg" alt="hoddie">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Women's Stretch Popover Hoodie</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">2465</div>
+                </div>
+                <div class="product-price">$13.74</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container">
+                    Color
+                    <div class="items">
+                        <button>Black</button>
+                        <button>Gray</button>
+                        <button>Blue</button>
+                    </div>
+                </div>
+                <div class="color-container">
+                    Size
+                    <div class="items">
+                        <button>XS</button>
+                        <button>S</button>
+                        <button>M</button>
+                        <button>L</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- rug mat -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/bathroom-rug.jpg" alt="rug mat">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Bathroom Bath Rug Mat 20 x 31 Inch - Grey</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">119</div>
+                </div>
+                <div class="product-price">$12.50</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- ballet flat -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/women-knit-ballet-flat-black.jpg" alt="ballet flat">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Women's Knit Ballet Flat</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-4.png" alt="4 rating">
+                    </div>
+                    <div class="product-sale-count">326</div>
+                </div>
+                <div class="product-price">$26.40</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container">
+                    Color
+                    <div class="items">
+                        <button>Black</button>
+                        <button>Gray</button>
+                    </div>
+                </div>
+                <div class="color-container">
+                    Shoe size (US)
+                    <div class="items">
+                        <button>6</button>
+                        <button>7</button>
+                        <button>8</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- polo shirt -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/men-golf-polo-t-shirt-blue.jpg" alt="polo shirt">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Men's Regular-Fit Quick-Dry Golf Polo Shirt</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">2556</div>
+                </div>
+                <div class="product-price">$15.99</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container">
+                    Color
+                    <div class="items">
+                        <button>Blue</button>
+                        <button>Black</button>
+                        <button>Red</button>
+                    </div>
+                </div>
+                <div class="color-container">
+                    Size
+                    <div class="items">
+                        <button>S</button>
+                        <button>M</button>
+                        <button>L</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- trash can -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" id="trash-can" src="product-images/trash-can-with-foot-pedal-50-liter.jpg" alt="trash can">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Trash Can with Foot Pedal - Brushed Stainless Steel</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-45.png" alt="4.5 rating">
+                    </div>
+                    <div class="product-sale-count">2286</div>
+                </div>
+                <div class="product-price">$83.00</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container">
+                    Size
+                    <div class="items">
+                        <button>50L</button>
+                        <button>30L Tall</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- cover set -->
+        <div class="product-container">
+            <div class="product-image-container">
+                <img class="product-image" src="product-images/duvet-cover-set-blue-twin.jpg" alt="cover set">
+            </div>
+            <div class="product-description">
+                <div class="product-name">Duvet Cover Set with Zipper Closure</div>
+                <div class="product-stats">
+                    <div class="rating">
+                        <img class="rating-image" src="rating/rating-4.png" alt="4 rating">
+                    </div>
+                    <div class="product-sale-count">456</div>
+                </div>
+                <div class="product-price">$23.99</div>
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <div class="color-container">
+                    Color
+                    <div class="items">
+                        <button>Blue</button>
+                        <button>Red</button>
+                    </div>
+                </div>
+                <div class="color-container">
+                    Size
+                    <div class="items">
+                        <button>Twin</button>
+                        <button>Queen</button>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>        
+    </div>
+
+</body>
+</html>
