@@ -9,77 +9,55 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
     padding-top: 60px;
+    /* background: url("./product-images/bathroom-rug.jpg"); */
 }
 
 .product-container {
     display: flex;
     flex-direction: column;
 
-    width: 191.4px;
-    padding: 0 30px;
+    /* width: 191.4px; */
+    /* padding: 0 30px;
     padding-top: 35px;
-    padding-bottom: 26px;
+    padding-bottom: 26px; */
+    padding: 2rem;
     border: 1px solid rgb(238, 222, 225);
     /* background-color: lightpink; */
 }
 
-.product-image-container {
-    display: flex;
-    align-items: center;
+@media (max-width: 650px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .return-order-container {
+        display: none;
+    }
+}
 
-    height: 200px;
+@media (min-width: 651px) and (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.product-image-container {
+    /* display: flex; */
+    /* align-items: center; */
+
+    /* height: 200px; */
+    overflow: hidden;
+    /* padding: 10px; */
     /* background-color: lightgreen; */
 }
 
 .product-image {
-    width: 90%;
-}
-
-#toaster {
-    width: 80%;
-    padding-left: 18px;
-}
-
-#detergent {
-    width: 60%;
-    padding-left: 30px;
-}
-
-#chiffon {
-    width: 70%;
-    padding-left: 20px;
-}
-
-#shorts {
-    width: 50%;
-    padding-left: 50px;
-}
-
-#kettle {
-    width: 85%;
-    padding-left: 15px;
-}
-
-#tissue {
-    width: 105%;
-}
-
-#hat {
-    width: 105%;
-}
-
-#earrings {
     width: 100%;
-}
-
-#hoodie {
-    width: 60%;
-    padding-left: 35px
-}
-
-#trash-can {
-    width: 60%;
-    padding-left: 30px;
 }
 
 .product-description {
@@ -90,7 +68,7 @@
 }
 
 .product-name {
-    width: 100%;
+    /* width: 100%; */
     height: 40px;
     line-height: 19px;
     font-size: 15px;
